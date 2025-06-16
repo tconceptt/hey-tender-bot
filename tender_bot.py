@@ -12,7 +12,7 @@ from selenium.common.exceptions import TimeoutException
 
 # --- Configuration ---
 BASE_URL = 'https://tender.2merkato.com/tenders'
-CATEGORIES = '61bbe243cfb36d443e8959ff', '61bbe243cfb36d443e8959fe', '1bbe243cfb36d443e895a03' , '61bbe243cfb36d443e895a31'
+CATEGORIES = '61bbe243cfb36d443e8959ff, 61bbe243cfb36d443e8959fe , 1bbe243cfb36d443e895a03 , 61bbe243cfb36d443e895a31'
 POLITENESS_DELAY_SECONDS = 2
 WEBDRIVER_WAIT_TIMEOUT = 20
 MAX_PAGES_TO_SCRAPE = 10
